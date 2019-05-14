@@ -12,9 +12,9 @@ import android.widget.SeekBar
 import android.widget.TextView
 import java.util.*
 import kotlin.concurrent.timerTask
-import android.os.Handler
 import com.override0330.android.redrock.myvideoview.`interface`.MediaPrepare
 import com.override0330.android.redrock.myvideoview.preparemethod.MediaPrepareFromLocalPath
+import com.override0330.android.redrock.myvideoview.preparemethod.MediaPrepareFromUrl
 
 /**
  * 视频控制类
@@ -29,14 +29,17 @@ class MyMediaManager(){
     private lateinit var videoSchedule: SeekBar
     private lateinit var videoFull: ImageView
 
-    private lateinit var timer: Timer
-    private lateinit var parentView: LinearLayout
-    private var videoHeight: Int = 0
-    private lateinit var controlBar: View
-    private lateinit var detailBar: View
+    private lateinit var seekBarTimer: Timer
+    private lateinit var controlBarTimer: Timer
+    private var controlBarCount = 0//计数器
 
-    private lateinit var prepareMethod: MediaPrepare
-    private lateinit var onError:MediaPlayer.OnErrorListener
+    private lateinit var parentView: LinearLayout//surfaceView父布局
+    private var videoHeight: Int = 0
+    private lateinit var controlBar: View//控制bar
+    private lateinit var detailBar: View//titleBar
+
+    private lateinit var prepareMethod: MediaPrepare//不同的加载实现
+    private lateinit var onError:MediaPlayer.OnErrorListener//播放错误的回调
 
     private constructor(activity: Activity,mediaPlayer: MediaPlayer):this(){
         this.activity = activity
@@ -59,9 +62,9 @@ class MyMediaManager(){
             return MediaFromLocalPath(mediaPlayer,path,activity)
         }
 
-        fun fromUrl(url: String):Builder{
-            this.url = url
-            return this
+        fun fromUrl(url: String): MediaFromUrl{
+            val mediaPlayer = MediaPlayer()
+            return MediaFromUrl(mediaPlayer,url,activity)
         }
     }
 
@@ -90,6 +93,7 @@ class MyMediaManager(){
         surfaceView.holder.addCallback(object : SurfaceHolder.Callback {
             //大小改变的回调
             override fun surfaceChanged(holder: SurfaceHolder?, format: Int, width: Int, height: Int) {
+                fitScreen()
             }
 
             //销毁的回调
@@ -116,10 +120,11 @@ class MyMediaManager(){
             //适配分辨率
             fitScreen()
             //倒计时隐藏bar
-            startToHidden()
+            hiddenControlBar()
             videoSchedule.max = mediaPlayer.duration
             //开启seekBar更新线程
             startRefreshSeekBar()
+            startCountBarTime()
 
         }
         //播放器播放完毕的回调
@@ -140,19 +145,25 @@ class MyMediaManager(){
                 if (isTouch) {
                     val position = seekBar.progress
                     mediaPlayer.seekTo(position)
+                    controlBarCount = 0
                     mediaPlayer.pause()
                 }
             }
 
             override fun onStartTrackingTouch(seekBar: SeekBar) {
                 isTouch = true
+                showControlBar()
             }
 
             override fun onStopTrackingTouch(seekBar: SeekBar) {
                 isTouch = false
+                hiddenControlBar()
                 mediaPlayer.start()
             }
         })
+        surfaceView.setOnClickListener {
+            showControlBar()
+        }
         /**
          * 暂停播放按钮的监听
          */
@@ -160,9 +171,11 @@ class MyMediaManager(){
             if (mediaPlayer.isPlaying) {
                 mediaPlayer.pause()
                 activity.runOnUiThread { videoControl.setImageResource(R.drawable.play) }
+                controlBarCount = 0
             } else {
                 mediaPlayer.start()
                 activity.runOnUiThread { videoControl.setImageResource(R.drawable.pause) }
+                controlBarCount= 0
             }
         }
         /**
@@ -173,9 +186,11 @@ class MyMediaManager(){
             if (state == Configuration.ORIENTATION_LANDSCAPE){
                 activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
                 activity.runOnUiThread { videoFull.setImageResource(R.drawable.fullscreen) }
+                controlBarCount= 0
             }else{
                 activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
                 activity.runOnUiThread { videoFull.setImageResource(R.drawable.smallscreen) }
+                controlBarCount= 0
             }
         }
     }
@@ -183,11 +198,24 @@ class MyMediaManager(){
      * SeekBar的进度更新
      */
     private fun startRefreshSeekBar() {
-        timer = Timer()
-        timer.schedule(timerTask {
+        seekBarTimer = Timer()
+        seekBarTimer.schedule(timerTask {
             val nowPosition = mediaPlayer.currentPosition
             videoSchedule.progress = nowPosition
         }, 0, 10)
+    }
+
+    /**
+     * 控制条和标题的计数器，如果到了3(s)那就隐藏，从其他地方更新controlBarCount来充值计数器
+     */
+    private fun startCountBarTime(){
+        controlBarTimer = Timer()
+        controlBarTimer.schedule(timerTask {
+            controlBarCount++
+            if (controlBarCount == 3){
+                hiddenControlBar()
+            }
+        },0,1000)
     }
     private fun fitScreen(){
         //获取父布局和surface布局的参数
@@ -221,26 +249,19 @@ class MyMediaManager(){
         fitScreen()
     }
 
-    //启动计时器，3秒后隐藏控制条和标题
-    private fun startToHidden(){
-        Handler().run {
-            postDelayed(Runnable {
-                //通过子view获取父容器
-                controlBar.visibility = View.GONE
-                detailBar.visibility = View.GONE
-            }, 3000)
-        }
+    //隐藏控制条和标题
+    private fun hiddenControlBar(){
+        controlBar.visibility = View.GONE
+        detailBar.visibility = View.GONE
+
     }
-    //直接显示控制条和标题
+    //显示控制条和标题
     private fun showControlBar(){
-        Handler().run {
-            postDelayed(Runnable {
-                controlBar.visibility = View.VISIBLE
-                detailBar.visibility = View.VISIBLE
-            }, 0)
-        }
+        controlBar.visibility = View.VISIBLE
+        detailBar.visibility = View.VISIBLE
     }
 
+    //Builder模式变种内部类
     class MediaFromLocalPath (private val mediaPlayer: MediaPlayer,
                               private val localPath: String,
                               private val activity: Activity){
@@ -250,6 +271,16 @@ class MyMediaManager(){
             myMediaManager.prepareMethod = mediaPrepareFromLocalPath
             return myMediaManager
         }
+    }
 
+    class MediaFromUrl(private val mediaPlayer: MediaPlayer,
+                       private val url: String,
+                       private val activity: Activity){
+        fun build():MyMediaManager{
+            val mediaPrepareFromUrl = MediaPrepareFromUrl(url,mediaPlayer)
+            val myMediaManager = MyMediaManager(activity,mediaPlayer)
+            myMediaManager.prepareMethod = mediaPrepareFromUrl
+            return myMediaManager
+        }
     }
 }
