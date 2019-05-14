@@ -8,10 +8,8 @@ import com.override0330.android.redrock.myvideoview.`interface`.MediaPrepare
 class MediaPrepareFromLocalPath(private val mediaPlayer: MediaPlayer,
                                 private val localPath:String,
                                 private val activity: Activity) : MediaPrepare {
-
     override fun prepare() {
         mediaPlayer.setDataSource(activity, Uri.parse(localPath))
         mediaPlayer.prepare()
     }
-
 }

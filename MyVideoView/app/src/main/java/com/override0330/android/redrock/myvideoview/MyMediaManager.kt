@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.pm.ActivityInfo
 import android.content.res.Configuration
 import android.media.MediaPlayer
-import android.net.Uri
 import android.util.Log
 import android.view.*
 import android.widget.ImageView
@@ -15,13 +14,14 @@ import java.util.*
 import kotlin.concurrent.timerTask
 import android.os.Handler
 import com.override0330.android.redrock.myvideoview.`interface`.MediaPrepare
+import com.override0330.android.redrock.myvideoview.preparemethod.MediaPrepareFromLocalPath
 
 /**
  * 视频控制类
  */
-class MyMediaManager{
-    private lateinit var mediaPlayer: MediaPlayer
+class MyMediaManager(){
     private lateinit var activity: Activity
+    private lateinit var mediaPlayer: MediaPlayer
     private lateinit var surfaceView: SurfaceView
 
     private lateinit var videoTitle: TextView
@@ -34,31 +34,29 @@ class MyMediaManager{
     private var videoHeight: Int = 0
     private lateinit var controlBar: View
     private lateinit var detailBar: View
-    private lateinit var prepareMethod: MediaPrepare
 
+    private lateinit var prepareMethod: MediaPrepare
     private lateinit var onError:MediaPlayer.OnErrorListener
 
-    fun getMediaPlayer(): MediaPlayer{
-        return this.mediaPlayer
+    private constructor(activity: Activity,mediaPlayer: MediaPlayer):this(){
+        this.activity = activity
+        this.mediaPlayer = mediaPlayer
     }
-    fun setPrepareMethod(mediaPrepare: MediaPrepare){
-        this.prepareMethod = mediaPrepare
-    }
-
     /**
-     * 建造者模式
+     * 变种的建造者模式
      */
     class Builder(
             //kotlin 专属构造器√
             // 必要参数
             private val activity: Activity) {
         //非必要
+        private lateinit var prepareMethod: MediaPrepare
         private var path: String = "实例视频路径"
         private var url: String = "示例视频url"
 
-        fun fromPath(path: String):Builder{
-            this.path = path
-            return this
+        fun fromPath(path: String): MediaFromLocalPath {
+            val mediaPlayer = MediaPlayer()
+            return MediaFromLocalPath(mediaPlayer,path,activity)
         }
 
         fun fromUrl(url: String):Builder{
@@ -66,12 +64,16 @@ class MyMediaManager{
             return this
         }
     }
+
+    /**
+     * 绑定控件
+     */
     private fun beBind(){
         surfaceView = activity.findViewById(R.id.sv_video)
         videoTitle = activity.findViewById(R.id.tv_title)
         videoControl = activity.findViewById(R.id.iv_play)
         videoSchedule = activity.findViewById(R.id.sb_play_control)
-        videoFull = activity.findViewById(R.id.screen)
+        videoFull = activity.findViewById(R.id.iv_screen)
     }
     /**
      *初始化surfaceView，视频资源，seekBar，按钮监听
@@ -82,7 +84,7 @@ class MyMediaManager{
         //初始化变量
         controlBar = videoSchedule.parent as View
         detailBar = videoTitle.parent as View
-        mediaPlayer = MediaPlayer()
+        parentView = surfaceView.parent as LinearLayout
 
         //初始化SurfaceView
         surfaceView.holder.addCallback(object : SurfaceHolder.Callback {
@@ -98,11 +100,11 @@ class MyMediaManager{
 
             //初始化成功的回调
             override fun surfaceCreated(holder: SurfaceHolder?) {
-                mediaPlayer.setDataSource(activity, Uri.parse("android.resource://" + activity.packageName + "/raw/a"));
+//                mediaPlayer.setDataSource(activity, Uri.parse("android.resource://" + activity.packageName + "/raw/a"))
                 mediaPlayer.isLooping = true
                 mediaPlayer.setDisplay(surfaceView.holder)
                 mediaPlayer.setScreenOnWhilePlaying(true)
-                mediaPlayer.prepare()
+                prepareMethod.prepare()
                 videoHeight = surfaceView.height
             }
         })
@@ -126,7 +128,7 @@ class MyMediaManager{
             mediaPlayer.pause()
         }
         //播放错误回调,通过注入来实现具体逻辑
-        mediaPlayer.setOnErrorListener(onError)
+//        mediaPlayer.setOnErrorListener(onError)
 
         /**
          * 滑动条视频跳转的监听
@@ -237,5 +239,17 @@ class MyMediaManager{
                 detailBar.visibility = View.VISIBLE
             }, 0)
         }
+    }
+
+    class MediaFromLocalPath (private val mediaPlayer: MediaPlayer,
+                              private val localPath: String,
+                              private val activity: Activity){
+        fun build():MyMediaManager{
+            val mediaPrepareFromLocalPath = MediaPrepareFromLocalPath(mediaPlayer,localPath,activity)
+            val myMediaManager = MyMediaManager(activity,mediaPlayer)
+            myMediaManager.prepareMethod = mediaPrepareFromLocalPath
+            return myMediaManager
+        }
+
     }
 }
