@@ -157,7 +157,7 @@ class MyMediaManager(){
 
             override fun onStopTrackingTouch(seekBar: SeekBar) {
                 isTouch = false
-                hiddenControlBar()
+//                hiddenControlBar()
                 mediaPlayer.start()
             }
         })
@@ -251,14 +251,18 @@ class MyMediaManager(){
 
     //隐藏控制条和标题
     private fun hiddenControlBar(){
-        controlBar.visibility = View.GONE
-        detailBar.visibility = View.GONE
-
+        activity.runOnUiThread{
+            controlBar.visibility = View.GONE
+            detailBar.visibility = View.GONE
+        }
     }
     //显示控制条和标题
     private fun showControlBar(){
-        controlBar.visibility = View.VISIBLE
-        detailBar.visibility = View.VISIBLE
+        activity.runOnUiThread{
+            controlBar.visibility = View.VISIBLE
+            detailBar.visibility = View.VISIBLE
+        }
+
     }
 
     //Builder模式变种内部类
