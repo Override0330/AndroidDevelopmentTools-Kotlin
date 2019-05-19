@@ -1,0 +1,4 @@
+#Thu May 16 17:24:19 CST 2019
+base.0=/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

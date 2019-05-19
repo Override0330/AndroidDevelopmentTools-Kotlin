@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71c86cbd180e99533ab147484773b742/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3d1c7089c7c555b648598261d8cceaeb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6e55fd93ca9d8586a1b507571763bf9d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b77a1ce26e64798645f65839c0eabc9b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b457b66cf0126bfbd7d601f608e8a4d7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4f0703626969fb697ef8089bf78ddcb2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0a45ae0f7af83c8b16d8898f8d57ffc0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/302fa99725572ea3a82c93ed279f5358/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/bf12e8374b41145c4ca300489fdd7b4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/29ab3a95ccfd7f47198ad5f4cb21cf8e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/7b2b51d00207b5f4080e13ad80406a65/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/60d16f6ec933dacc87ec982cac2c056b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/98ab5157dd9bfb1acdfb53f2096ef98d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/819ed453b690114d27b35a6b2446b143/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4ef2f6df782c7c68868ee610ad33721f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cffce204bfa31e65329db24910759b68/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2a5a90708bcab52f20c7a608d3ced7ad/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ee863fcae18f96111cd75dbffa33ab32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/537d2e65b361d2848cd6887706fab2ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0022dc0f89fa5f3fd266c92bee32b66f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6b15b6440849e2281256d34b41765148/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/585b167f666a51cd2b0b20162b4cc61f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5f3912613d9666252a7a45f2de37d3c0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7e3747db20b13dadf91026703114fd74/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/993132193c6316acb7ebfd3ff2ef8916/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d091c90d4ac07edecbad994a2bdffa07/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:3:5-58
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71c86cbd180e99533ab147484773b742/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71c86cbd180e99533ab147484773b742/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4ef2f6df782c7c68868ee610ad33721f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4ef2f6df782c7c68868ee610ad33721f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cffce204bfa31e65329db24910759b68/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cffce204bfa31e65329db24910759b68/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4ef2f6df782c7c68868ee610ad33721f/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.override0330.android.redrock.customview.MainActivity
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71c86cbd180e99533ab147484773b742/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71c86cbd180e99533ab147484773b742/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3d1c7089c7c555b648598261d8cceaeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3d1c7089c7c555b648598261d8cceaeb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6e55fd93ca9d8586a1b507571763bf9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/6e55fd93ca9d8586a1b507571763bf9d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b77a1ce26e64798645f65839c0eabc9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b77a1ce26e64798645f65839c0eabc9b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b457b66cf0126bfbd7d601f608e8a4d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b457b66cf0126bfbd7d601f608e8a4d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4f0703626969fb697ef8089bf78ddcb2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4f0703626969fb697ef8089bf78ddcb2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0a45ae0f7af83c8b16d8898f8d57ffc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/0a45ae0f7af83c8b16d8898f8d57ffc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/302fa99725572ea3a82c93ed279f5358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/302fa99725572ea3a82c93ed279f5358/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/bf12e8374b41145c4ca300489fdd7b4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/bf12e8374b41145c4ca300489fdd7b4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/29ab3a95ccfd7f47198ad5f4cb21cf8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/29ab3a95ccfd7f47198ad5f4cb21cf8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/7b2b51d00207b5f4080e13ad80406a65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/7b2b51d00207b5f4080e13ad80406a65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/60d16f6ec933dacc87ec982cac2c056b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/60d16f6ec933dacc87ec982cac2c056b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/98ab5157dd9bfb1acdfb53f2096ef98d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/98ab5157dd9bfb1acdfb53f2096ef98d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/819ed453b690114d27b35a6b2446b143/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/819ed453b690114d27b35a6b2446b143/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4ef2f6df782c7c68868ee610ad33721f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4ef2f6df782c7c68868ee610ad33721f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cffce204bfa31e65329db24910759b68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cffce204bfa31e65329db24910759b68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2a5a90708bcab52f20c7a608d3ced7ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2a5a90708bcab52f20c7a608d3ced7ad/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ee863fcae18f96111cd75dbffa33ab32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ee863fcae18f96111cd75dbffa33ab32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/537d2e65b361d2848cd6887706fab2ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/537d2e65b361d2848cd6887706fab2ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0022dc0f89fa5f3fd266c92bee32b66f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0022dc0f89fa5f3fd266c92bee32b66f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6b15b6440849e2281256d34b41765148/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/6b15b6440849e2281256d34b41765148/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/585b167f666a51cd2b0b20162b4cc61f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/585b167f666a51cd2b0b20162b4cc61f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5f3912613d9666252a7a45f2de37d3c0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5f3912613d9666252a7a45f2de37d3c0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7e3747db20b13dadf91026703114fd74/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7e3747db20b13dadf91026703114fd74/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/993132193c6316acb7ebfd3ff2ef8916/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/993132193c6316acb7ebfd3ff2ef8916/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d091c90d4ac07edecbad994a2bdffa07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d091c90d4ac07edecbad994a2bdffa07/AndroidManifest.xml:20:5-44
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/CustomView/app/src/main/AndroidManifest.xml
