@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support:design:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71c86cbd180e99533ab147484773b742/AndroidManifest.xml:2:1-11:12
@@ -35,20 +35,20 @@ MERGED from [com.android.support:interpolator:28.0.0] /Users/huanglong/.gradle/c
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5f3912613d9666252a7a45f2de37d3c0/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7e3747db20b13dadf91026703114fd74/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/993132193c6316acb7ebfd3ff2ef8916/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:3:5-64
 		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-33:12
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:2:11-69
@@ -61,7 +61,7 @@ ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedr
 	android:name
 		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:5:22-78
 application
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:6:5-31:19
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:6:5-32:19
 MERGED from [com.android.support:design:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/71c86cbd180e99533ab147484773b742/AndroidManifest.xml:9:5-20
@@ -73,7 +73,7 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huanglong/.g
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4ef2f6df782c7c68868ee610ad33721f/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
 		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
@@ -83,47 +83,49 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/huanglong/.g
 	android:allowBackup
 		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:12:9-40
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:13:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:11:9-69
 service#com.override0330.android.redrock.mredrockexam2019.service.MyMusicService
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:13:9-16:39
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:14:9-17:39
 	android:enabled
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:15:13-35
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:16:13-35
 	android:exported
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:16:13-36
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:14:13-51
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:15:13-51
 activity#com.override0330.android.redrock.mredrockexam2019.activity.SplashActivity
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:18:9-26:20
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:19:9-27:20
 	android:theme
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:20:13-49
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:21:13-49
 	android:name
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:19:13-52
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:20:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:25:27-74
 activity#com.override0330.android.redrock.mredrockexam2019.activity.HomePageActivity
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:27:9-63
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:28:9-63
 	android:name
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:27:19-60
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:28:19-60
 activity#com.override0330.android.redrock.mredrockexam2019.activity.DetailActivity
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:28:9-61
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:29:9-61
 	android:name
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:28:19-58
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:29:19-58
 activity#com.override0330.android.redrock.mredrockexam2019.activity.CollectionActivity
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:29:9-65
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:30:9-65
 	android:name
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:29:19-62
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:30:19-62
 activity#com.override0330.android.redrock.mredrockexam2019.activity.DailyRecommend
-ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:30:9-70
+ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:31:9-70
 	android:name
-		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:30:19-58
+		ADDED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml:31:19-58
 uses-sdk
 INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/AndroidManifest.xml

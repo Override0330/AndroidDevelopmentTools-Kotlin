@@ -8,12 +8,12 @@
         "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/drawable/ic_play_pause.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable_ic_setting.png.flat",
-        "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/drawable/ic_setting.png"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/layout/mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable_ic_setting.png.flat",
+        "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/drawable/ic_setting.png"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -32,24 +32,24 @@
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/color_mtrl_btn_bg_color_selector.xml.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/color/mtrl_btn_bg_color_selector.xml"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4ef2f6df782c7c68868ee610ad33721f/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/color_mtrl_btn_bg_color_selector.xml.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/color/mtrl_btn_bg_color_selector.xml"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable_bg_frame_short.png.flat",
         "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/drawable/bg_frame_short.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -64,12 +64,12 @@
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -88,12 +88,12 @@
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -116,12 +116,12 @@
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -130,6 +130,10 @@
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/xml/network_security_config.xml"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -148,28 +152,28 @@
         "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/drawable-v24/ic_switch.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-v24_ic_default_bottom_music_icon.png.flat",
         "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/drawable-v24/ic_default_bottom_music_icon.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_item_lyric.xml.flat",
-        "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/layout/item_lyric.xml"
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/anim/design_snackbar_in.xml"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/anim_design_snackbar_in.xml.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/anim/design_snackbar_in.xml"
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_item_lyric.xml.flat",
+        "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/layout/item_lyric.xml"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-v24_ic_mood_default.png.flat",
@@ -196,12 +200,12 @@
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/interpolator-v21_mtrl_fast_out_slow_in.xml.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -264,12 +268,12 @@
         "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
-        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/animator_mtrl_fab_hide_motion_spec.xml.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/d37dbf01ca843315fc94b39976ec8145/res/animator/mtrl_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
+        "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable_navigation_empty_icon.xml.flat",
@@ -288,12 +292,12 @@
         "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/drawable-v24/ic_rec_play.png"
     },
     {
-        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_activity_homepage.xml.flat",
-        "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/layout/activity_homepage.xml"
-    },
-    {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/huanglong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/a6f8604cc29b10c74450a45787a4534b/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/layout_activity_homepage.xml.flat",
+        "source": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/src/main/res/layout/activity_homepage.xml"
     },
     {
         "merged": "/Users/huanglong/GitRepositories/AndroidDevelopmentTools-Kotlin/MRedrockExam2019/app/build/intermediates/res/merged/debug/drawable_abc_ic_menu_overflow_material.xml.flat",
