@@ -10,8 +10,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        myMediaManager = MyMediaManager.Builder(this).fromPath("android.resource://$packageName/raw/a").build()
-        myMediaManager = MyMediaManager.Builder(this).fromUrl("https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4").build()
+        myMediaManager = MyMediaManager.Builder(this).fromPath().build()
+//        myMediaManager = MyMediaManager.Builder(this).fromUrl("https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4").build()
         myMediaManager.init()
     }
     override fun onConfigurationChanged(newConfig: Configuration?) {

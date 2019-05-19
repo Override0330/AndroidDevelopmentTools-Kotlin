@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MRedrockExam2019</string>
+    <string name="wancheng">完成</string>
+    <string name="quxiao">取消</string>
+    <string name="tiaoguo">跳过</string>
+</resources>
